@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <canvas class="webgl z-[1] absolute"></canvas>
+    <nav class="w-full z-[2] relative flex justify-between items-center p-5">
+      <div class="text-zinc-400 ">
+        <h1 class="hover:text-white">Sphere</h1>
+      </div>
+      <div>
+        <ul class="text-zinc-400 flex gap-5 ">
+          <li class="hover:text-white">Explore</li>
+          <li class="hover:text-white">Create</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="heroText z-[2] text-zinc-400 absolute left-1/2 top-[86%] -translate-x-1/2 -translate-y-[86%]">
+      <h1 class="text-3xl text-zinc-200">GIVE IT A SPIN</h1>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
